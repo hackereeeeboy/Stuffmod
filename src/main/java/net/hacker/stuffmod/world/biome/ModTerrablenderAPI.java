@@ -13,9 +13,9 @@ public class ModTerrablenderAPI implements TerraBlenderApi {
     public void onTerraBlenderInitialized() {
 
         Regions.register(new ModOverworldRegion(new Identifier(StuffMod.MOD_ID, "overworld"), 200));
-        EndBiomeRegistry.registerMidlandsBiome(ModBiomes.END_PLANES_BIOME, 300);
-        EndBiomeRegistry.registerHighlandsBiome(ModBiomes.END_PLANES_BIOME, 50);
-        EndBiomeRegistry.registerEdgeBiome(ModBiomes.END_PLANES_BIOME, 50);
+        EndBiomeRegistry.registerMidlandsBiome(ModBiomes.END_PLANES_BIOME, 50);
+        EndBiomeRegistry.registerHighlandsBiome(ModBiomes.END_PLANES_BIOME, 25);
+        EndBiomeRegistry.registerEdgeBiome(ModBiomes.END_PLANES_BIOME, 25);
 
         SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, StuffMod.MOD_ID, ModMaterialRules.makeRules());
         SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.END, StuffMod.MOD_ID, ModMaterialRules.makeRulesendplaines());
