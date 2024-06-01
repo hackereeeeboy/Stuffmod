@@ -36,10 +36,7 @@
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "stuffmod:firey_void_sapling",
-          "Properties": {
-            "stage": "0"
-          }
+          "Name": "minecraft:end_stone"
         }
       }
     }

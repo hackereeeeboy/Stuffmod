@@ -1,4 +1,4 @@
-// 1.20.4	2024-05-31T16:36:23.987887	Stuff Mod/Model Definitions
+// 1.20.4	2024-06-01T19:04:30.2528826	Stuff Mod/Model Definitions
 1448470dc29d0fa0b5b3c6da20766fb81776b399 assets\stuffmod\models\item\enderite_boots_quartz_trim.json
 ba38a623cb0f10637e6a96c8b724eb633e3e53a3 assets\stuffmod\blockstates\eeee_ore.json
 cedf1e9c69250f24da601cacd67292e22e245c40 assets\stuffmod\models\item\laoc.json
@@ -135,8 +135,8 @@ a543689e82df602fae9bf793a61ae4053cb386db assets\stuffmod\models\item\eeee_helmet
 527945a3cfec99575735fe69e35b764604fb249c assets\stuffmod\models\item\firey_void_door.json
 80e67d02b114d8c6e4ad4fb7574ef76acedf6e92 assets\stuffmod\models\item\enderite_chestplate_lapis_trim.json
 19f7e32fa32c693d45781fa13d75119212c201fd assets\stuffmod\models\item\enderite_boots_redstone_trim.json
-f8f92b3582c2f71927eb389fc06d9ccf4fa2de93 assets\stuffmod\blockstates\firey_void_wood.json
 35d45990b9322f54ff001467dc5e8b574773d32d assets\stuffmod\blockstates\stripped_firey_void_log.json
+f8f92b3582c2f71927eb389fc06d9ccf4fa2de93 assets\stuffmod\blockstates\firey_void_wood.json
 fba12c2dc709b787cb215cfec6a98c5c314ffe64 assets\stuffmod\models\item\enderite_boots_netherite_trim.json
 41d4fd553693be2be7ec72069cc4cd35cf49bb24 assets\stuffmod\models\item\eeee_sword.json
 b885634cba133b8574044731ab35241432f9690b assets\stuffmod\models\block\firey_void_log.json
