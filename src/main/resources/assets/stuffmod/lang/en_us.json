@@ -43,6 +43,24 @@
   "block.stuffmod.stripped_firey_void_log": "Stripped Firey Void Log",
   "block.stuffmod.firey_void_sapling": "Firey Void Sapling",
 
+  "block.tutorialmod.icee_void_stairs": "Icee Void Stairs",
+  "block.tutorialmod.icee_void_slab": "Icee Void Slab",
+  "block.tutorialmod.icee_void_button": "Icee Void Button",
+  "block.tutorialmod.icee_void_pressure_plate": "Icee Void Pressure Plate",
+  "block.tutorialmod.icee_void_fence": "Icee Void Fence",
+  "block.tutorialmod.icee_void_fence_gate": "Icee Void Fence Gate",
+  "block.tutorialmod.icee_void_wall": "Icee Void Wall",
+  "block.tutorialmod.icee_void_door": "Icee Void Door",
+  "block.tutorialmod.icee_void_trapdoor": "Icee Void Trapdoor",
+
+
+  "block.stuffmod.icee_void_log": "Icee Void Log",
+  "block.stuffmod.icee_void_wood": "Icee Void Wood",
+  "block.stuffmod.icee_void_planks": "Icee Void Planks",
+  "block.stuffmod.icee_void_leaves": "Icee Void Leaves",
+  "block.stuffmod.stripped_icee_void_wood": "Stripped Icee Void Wood",
+  "block.stuffmod.stripped_icee_void_log": "Stripped Icee Void Log",
+
   "item.stuffmod.emerald_axe": "Emerald Axe",
   "item.stuffmod.emerald_shovel": "Emerald Shovel",
   "item.stuffmod.emerald_pickaxe": "Emerald Pickaxe",

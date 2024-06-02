@@ -61,6 +61,19 @@ public class ModBlocks {
     public static final Block FIREY_VOID_SAPLING = registerBlock("firey_void_sapling",
             new SaplingBlock(ModSaplingGenorators.VOIDFIREY, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(2f).nonOpaque()));
 
+    public static final Block ICEE_VOID_LOG = registerBlock("icee_void_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(2f)));
+    public static final Block ICEE_VOID_WOOD = registerBlock("icee_void_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(2f)));
+    public static final Block STRIPPED_ICEE_VOID_LOG = registerBlock("stripped_icee_void_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(2f)));
+    public static final Block STRIPPED_ICEE_VOID_WOOD = registerBlock("stripped_icee_void_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(2f)));
+    public static final Block ICEE_VOID_PLANKS = registerBlock("icee_void_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2f)));
+    public static final Block ICEE_VOID_LEAVES = registerBlock("icee_void_leaves",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(2f).nonOpaque()));
+
     //NON BLOCK BLOCKS
 
     public static final Block FIREY_VOID_STAIRS = registerBlock("firey_void_stairs",
@@ -80,6 +93,25 @@ public class ModBlocks {
     public static final Block FIREY_VOID_DOOR = registerBlock("firey_void_door",
             new DoorBlock(BlockSetType.CHERRY, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     public static final Block FIREY_VOID_TRAPDOOR = registerBlock("firey_void_trapdoor",
+            new TrapdoorBlock(BlockSetType.CHERRY, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+
+    public static final Block ICEE_VOID_STAIRS = registerBlock("icee_void_stairs",
+            new StairsBlock(ModBlocks.ICEE_VOID_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_STAIRS)));
+    public static final Block ICEE_VOID_SLAB = registerBlock("icee_void_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block ICEE_VOID_BUTTON = registerBlock("icee_void_button",
+            new ButtonBlock(BlockSetType.IRON, 1, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block ICEE_VOID_PRESSURE_PLATE = registerBlock("icee_void_pressure_plate",
+            new PressurePlateBlock(BlockSetType.IRON, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block ICEE_VOID_FENCE = registerBlock("icee_void_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block ICEE_VOID_FENCE_GATE = registerBlock("icee_void_fence_gate",
+            new FenceGateBlock(WoodType.ACACIA, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block ICEE_VOID_WALL = registerBlock("icee_void_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+    public static final Block ICEE_VOID_DOOR = registerBlock("icee_void_door",
+            new DoorBlock(BlockSetType.CHERRY, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+    public static final Block ICEE_VOID_TRAPDOOR = registerBlock("icee_void_trapdoor",
             new TrapdoorBlock(BlockSetType.CHERRY, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
 

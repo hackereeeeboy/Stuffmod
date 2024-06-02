@@ -41,6 +41,24 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.FIREY_VOID_DOOR, doorDrops(ModBlocks.FIREY_VOID_DOOR));
         addDrop(ModBlocks.FIREY_VOID_SLAB, slabDrops(ModBlocks.FIREY_VOID_SLAB));
 
+        addDrop(ModBlocks.ICEE_VOID_LOG);
+        addDrop(ModBlocks.ICEE_VOID_PLANKS);
+        addDrop(ModBlocks.ICEE_VOID_WOOD);
+        addDrop(ModBlocks.STRIPPED_ICEE_VOID_LOG);
+        addDrop(ModBlocks.STRIPPED_ICEE_VOID_WOOD);
+        addDrop(ModBlocks.ICEE_VOID_LEAVES, leavesDrops(ModBlocks.ICEE_VOID_LEAVES, ModBlocks.FIREY_VOID_SAPLING, 0.005f)); //TODO
+
+        addDrop(ModBlocks.ICEE_VOID_TRAPDOOR);
+        addDrop(ModBlocks.ICEE_VOID_STAIRS);
+        addDrop(ModBlocks.ICEE_VOID_BUTTON);
+        addDrop(ModBlocks.ICEE_VOID_WALL);
+        addDrop(ModBlocks.ICEE_VOID_FENCE);
+        addDrop(ModBlocks.ICEE_VOID_FENCE_GATE);
+        addDrop(ModBlocks.ICEE_VOID_PRESSURE_PLATE);
+
+        addDrop(ModBlocks.ICEE_VOID_DOOR, doorDrops(ModBlocks.ICEE_VOID_DOOR));
+        addDrop(ModBlocks.ICEE_VOID_SLAB, slabDrops(ModBlocks.ICEE_VOID_SLAB));
+
         addDrop(ModBlocks.EEEE_MEDALIEAN_BLOCK);
         addDrop(ModBlocks.EEEE_INGOT_BLOCK);
         addDrop(ModBlocks.ENDERITE_BLOCK);

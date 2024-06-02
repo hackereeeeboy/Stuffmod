@@ -44,6 +44,22 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.FIREY_VOID_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.FIREY_VOID_TRAPDOOR);
 
+        blockStateModelGenerator.registerLog(ModBlocks.ICEE_VOID_LOG).log(ModBlocks.ICEE_VOID_LOG).wood(ModBlocks.ICEE_VOID_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_ICEE_VOID_LOG).log(ModBlocks.STRIPPED_ICEE_VOID_LOG).wood(ModBlocks.STRIPPED_ICEE_VOID_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ICEE_VOID_LEAVES);
+        BlockStateModelGenerator.BlockTexturePool iceeVoidPlanksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ICEE_VOID_PLANKS);
+
+        iceeVoidPlanksPool.stairs(ModBlocks.ICEE_VOID_STAIRS);
+        iceeVoidPlanksPool.button(ModBlocks.ICEE_VOID_BUTTON);
+        iceeVoidPlanksPool.slab(ModBlocks.ICEE_VOID_SLAB);
+        iceeVoidPlanksPool.wall(ModBlocks.ICEE_VOID_WALL);
+        iceeVoidPlanksPool.fence(ModBlocks.ICEE_VOID_FENCE);
+        iceeVoidPlanksPool.fenceGate(ModBlocks.ICEE_VOID_FENCE_GATE);
+        iceeVoidPlanksPool.pressurePlate(ModBlocks.ICEE_VOID_PRESSURE_PLATE);
+
+        blockStateModelGenerator.registerDoor(ModBlocks.ICEE_VOID_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.ICEE_VOID_TRAPDOOR);
+
 
 
         blockStateModelGenerator.registerTintableCross(ModBlocks.FIREY_VOID_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);

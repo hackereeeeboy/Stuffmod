@@ -66,6 +66,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FIREY_VOID_FENCE_GATE);
                         entries.add(ModBlocks.FIREY_VOID_WALL);
 
+                        entries.add(ModBlocks.ICEE_VOID_LEAVES);
+                        entries.add(ModBlocks.ICEE_VOID_LOG);
+                        entries.add(ModBlocks.ICEE_VOID_PLANKS);
+                        entries.add(ModBlocks.ICEE_VOID_WOOD);
+                        entries.add(ModBlocks.STRIPPED_ICEE_VOID_LOG);
+                        entries.add(ModBlocks.STRIPPED_ICEE_VOID_WOOD);
+
+                        entries.add(ModBlocks.ICEE_VOID_BUTTON);
+                        entries.add(ModBlocks.ICEE_VOID_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ICEE_VOID_STAIRS);
+                        entries.add(ModBlocks.ICEE_VOID_SLAB);
+                        entries.add(ModBlocks.ICEE_VOID_DOOR);
+                        entries.add(ModBlocks.ICEE_VOID_TRAPDOOR);
+                        entries.add(ModBlocks.ICEE_VOID_FENCE);
+                        entries.add(ModBlocks.ICEE_VOID_FENCE_GATE);
+                        entries.add(ModBlocks.ICEE_VOID_WALL);
+
                         entries.add(ModItems.EMERALD_SHOVEL);
                         entries.add(ModItems.EMERALD_AXE);
                         entries.add(ModItems.EMERALD_PICKAXE);

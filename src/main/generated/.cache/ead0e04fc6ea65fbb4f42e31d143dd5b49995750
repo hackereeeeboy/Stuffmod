@@ -1,9 +1,9 @@
-// 1.20.4	2024-06-01T19:04:30.2614235	Stuff Mod/World Gen
+// 1.20.4	2024-06-02T18:13:13.9966026	Stuff Mod/World Gen
 f230ecf4e6db81a189793ad82870442e93e238f9 data\stuffmod\worldgen\placed_feature\enderite_ore_placed.json
 10a3835a8c559cbb946075a753beb874d6355cee data\stuffmod\worldgen\configured_feature\firey_void.json
 e1c1bbc6b0a2da93757c48030d520d72e19e3aa2 data\stuffmod\worldgen\placed_feature\eeee_ore_placed.json
-c0229cc662b2f4d1f94b76dbe71cca30ff366cb1 data\stuffmod\worldgen\placed_feature\laoc_ore_placed.json
 e4b6b5dec04ca624b5021508f590410bbc7a90ea data\stuffmod\worldgen\placed_feature\firey_void_placed.json
+c0229cc662b2f4d1f94b76dbe71cca30ff366cb1 data\stuffmod\worldgen\placed_feature\laoc_ore_placed.json
 7c68d13cb0c279cac68c2bb208af4ddadd6c2624 data\stuffmod\worldgen\configured_feature\eeee_ore.json
 3f192affefe966b13c7ef30cc24ae65a28557f80 data\stuffmod\worldgen\configured_feature\laoc_ore.json
 e2611573336c8b9d4c7f68c7377013aedfd68ede data\stuffmod\worldgen\biome\end_planes_biome.json

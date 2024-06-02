@@ -4,12 +4,14 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.hacker.stuffmod.block.ModBlocks;
 import net.hacker.stuffmod.item.ModItems;
+import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.util.Identifier;
 import org.apache.logging.log4j.core.jmx.StatusLoggerAdminMBean;
 
@@ -44,6 +46,27 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createFenceRecipe(ModBlocks.FIREY_VOID_FENCE, Ingredient.ofItems(ModBlocks.FIREY_VOID_PLANKS)).criterion(hasItem(ModBlocks.FIREY_VOID_PLANKS), conditionsFromItem(ModBlocks.FIREY_VOID_PLANKS)).offerTo(exporter, new Identifier(getRecipeName(ModBlocks.FIREY_VOID_FENCE)));
         createPressurePlateRecipe(RecipeCategory.MISC, ModBlocks.FIREY_VOID_PRESSURE_PLATE, Ingredient.ofItems(ModBlocks.FIREY_VOID_PLANKS)).criterion(hasItem(ModBlocks.FIREY_VOID_PLANKS), conditionsFromItem(ModBlocks.FIREY_VOID_PLANKS)).offerTo(exporter, new Identifier(getRecipeName(ModBlocks.FIREY_VOID_PRESSURE_PLATE)));
         createSlabRecipe(RecipeCategory.MISC, ModBlocks.FIREY_VOID_SLAB, Ingredient.ofItems(ModBlocks.FIREY_VOID_PLANKS)).criterion(hasItem(ModBlocks.FIREY_VOID_PLANKS), conditionsFromItem(ModBlocks.FIREY_VOID_PLANKS)).offerTo(exporter, new Identifier(getRecipeName(ModBlocks.FIREY_VOID_SLAB)));
+
+        createDoorRecipe(ModBlocks.ICEE_VOID_DOOR, Ingredient.ofItems(ModBlocks.ICEE_VOID_PLANKS)).criterion(hasItem(ModBlocks.ICEE_VOID_PLANKS), conditionsFromItem(ModBlocks.ICEE_VOID_PLANKS)).offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ICEE_VOID_DOOR)));
+        createStairsRecipe(ModBlocks.ICEE_VOID_STAIRS, Ingredient.ofItems(ModBlocks.ICEE_VOID_PLANKS)).criterion(hasItem(ModBlocks.ICEE_VOID_PLANKS), conditionsFromItem(ModBlocks.ICEE_VOID_PLANKS)).offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ICEE_VOID_STAIRS)));
+        createTrapdoorRecipe(ModBlocks.ICEE_VOID_TRAPDOOR, Ingredient.ofItems(ModBlocks.ICEE_VOID_PLANKS)).criterion(hasItem(ModBlocks.ICEE_VOID_PLANKS), conditionsFromItem(ModBlocks.ICEE_VOID_PLANKS)).offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ICEE_VOID_TRAPDOOR)));
+        createFenceGateRecipe(ModBlocks.ICEE_VOID_FENCE_GATE, Ingredient.ofItems(ModBlocks.ICEE_VOID_PLANKS)).criterion(hasItem(ModBlocks.ICEE_VOID_PLANKS), conditionsFromItem(ModBlocks.ICEE_VOID_PLANKS)).offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ICEE_VOID_FENCE_GATE)));
+        createFenceRecipe(ModBlocks.ICEE_VOID_FENCE, Ingredient.ofItems(ModBlocks.ICEE_VOID_PLANKS)).criterion(hasItem(ModBlocks.ICEE_VOID_PLANKS), conditionsFromItem(ModBlocks.ICEE_VOID_PLANKS)).offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ICEE_VOID_FENCE)));
+        createPressurePlateRecipe(RecipeCategory.MISC, ModBlocks.ICEE_VOID_PRESSURE_PLATE, Ingredient.ofItems(ModBlocks.ICEE_VOID_PLANKS)).criterion(hasItem(ModBlocks.ICEE_VOID_PLANKS), conditionsFromItem(ModBlocks.ICEE_VOID_PLANKS)).offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ICEE_VOID_PRESSURE_PLATE)));
+        createSlabRecipe(RecipeCategory.MISC, ModBlocks.ICEE_VOID_SLAB, Ingredient.ofItems(ModBlocks.ICEE_VOID_PLANKS)).criterion(hasItem(ModBlocks.ICEE_VOID_PLANKS), conditionsFromItem(ModBlocks.ICEE_VOID_PLANKS)).offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ICEE_VOID_SLAB)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ICEE_VOID_WALL, 6)
+                .pattern("SSS")
+                .pattern("SSS")
+                .input('S', ModBlocks.ICEE_VOID_PLANKS)
+                .criterion(hasItem(ModBlocks.ICEE_VOID_PLANKS), conditionsFromItem(ModBlocks.ICEE_VOID_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ICEE_VOID_WALL)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ICEE_VOID_BUTTON, 1)
+                .pattern("S")
+                .input('S', ModBlocks.ICEE_VOID_PLANKS)
+                .criterion(hasItem(ModBlocks.ICEE_VOID_PLANKS), conditionsFromItem(ModBlocks.ICEE_VOID_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ICEE_VOID_BUTTON)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.FIREY_VOID_WALL, 6)
                 .pattern("SSS")
