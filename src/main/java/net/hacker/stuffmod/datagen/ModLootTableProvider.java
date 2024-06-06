@@ -46,7 +46,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ICEE_VOID_WOOD);
         addDrop(ModBlocks.STRIPPED_ICEE_VOID_LOG);
         addDrop(ModBlocks.STRIPPED_ICEE_VOID_WOOD);
-        addDrop(ModBlocks.ICEE_VOID_LEAVES, leavesDrops(ModBlocks.ICEE_VOID_LEAVES, ModBlocks.FIREY_VOID_SAPLING, 0.005f)); //TODO
+        addDrop(ModBlocks.ICEE_VOID_LEAVES, leavesDrops(ModBlocks.ICEE_VOID_LEAVES, ModBlocks.ICEE_VOID_SAPLING, 0.005f)); //TODO
 
         addDrop(ModBlocks.ICEE_VOID_TRAPDOOR);
         addDrop(ModBlocks.ICEE_VOID_STAIRS);

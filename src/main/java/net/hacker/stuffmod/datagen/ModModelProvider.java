@@ -78,6 +78,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.METAL_DETECTORT1, Models.GENERATED);
         itemModelGenerator.register(ModItems.METAL_DETECTORT2, Models.GENERATED);
         itemModelGenerator.register(ModItems.METAL_DETECTORT3, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDERITE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDERITE_INGOT, Models.GENERATED);
+
 
 
         itemModelGenerator.register(ModItems.EEEE_AXE, Models.HANDHELD);

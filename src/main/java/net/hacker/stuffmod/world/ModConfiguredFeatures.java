@@ -31,6 +31,7 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> LAOC_ORE_KEY = registerKey("laoc_ore");
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> FIREY_VOID_KEY = registerKey("firey_void");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ICEE_VOID_KEY = registerKey("icee_void");
 
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
@@ -60,6 +61,16 @@ public class ModConfiguredFeatures {
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(3), 3   ),
 
                 new TwoLayersFeatureSize(1,0,1)).build()
+        );
+
+        register(context, ICEE_VOID_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.ICEE_VOID_LOG),
+                new StraightTrunkPlacer(4, 3, 2),
+
+                BlockStateProvider.of(ModBlocks.ICEE_VOID_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(3), ConstantIntProvider.create(3), 4),
+
+                new TwoLayersFeatureSize(1,0,3)).build()
         );
     }
 

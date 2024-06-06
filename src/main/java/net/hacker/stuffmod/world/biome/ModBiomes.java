@@ -51,7 +51,6 @@ public class ModBiomes {
 
         DefaultBiomeFeatures.addDefaultOres(biomeBuilder);
 
-        biomeBuilder.feature(GenerationStep.Feature.LAKES, VegetationPlacedFeatures.TREES_JUNGLE);
 
         return new Biome.Builder()
                 .precipitation(false)

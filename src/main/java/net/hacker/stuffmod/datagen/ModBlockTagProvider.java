@@ -4,9 +4,11 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.hacker.stuffmod.block.ModBlocks;
 import net.hacker.stuffmod.util.ModTags;
+import net.hacker.stuffmod.world.biome.ModBiomes;
 import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.BiomeTags;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.registry.tag.TagKey;
@@ -42,7 +44,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STRIPPED_FIREY_VOID_LOG)
                 .add(ModBlocks.STRIPPED_FIREY_VOID_WOOD)
                 .add(ModBlocks.FIREY_VOID_WOOD);
-
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.EEEE_BLOCK)

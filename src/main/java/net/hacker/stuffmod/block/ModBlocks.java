@@ -73,6 +73,9 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(2f)));
     public static final Block ICEE_VOID_LEAVES = registerBlock("icee_void_leaves",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(2f).nonOpaque()));
+    public static final Block ICEE_VOID_SAPLING = registerBlock("icee_void_sapling",
+            new SaplingBlock(ModSaplingGenorators.VOIDICEE, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(2f).nonOpaque()));
+
 
     //NON BLOCK BLOCKS
 

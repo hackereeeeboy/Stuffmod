@@ -25,6 +25,7 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> ENDERITE_ORE_PLACED_KEY = registerKey("enderite_ore_placed");
 
     public static final RegistryKey<PlacedFeature> FIREY_VOID_PLACED_KEY = registerKey("firey_void_placed");
+    public static final RegistryKey<PlacedFeature> ICEE_VOID_PLACED_KEY = registerKey("icee_void_placed");
 
     public static void boostrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
