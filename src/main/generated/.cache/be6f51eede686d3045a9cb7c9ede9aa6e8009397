@@ -1,4 +1,4 @@
-// 1.20.4	2024-06-05T20:20:49.3407519	Stuff Mod/Block Loot Tables
+// 1.20.4	2024-07-07T15:50:27.6433505	Stuff Mod/Block Loot Tables
 462c3f44911bc53b18b4226b369f38334104148b data\stuffmod\loot_tables\blocks\eeee_block.json
 7c4b3466e51f36a2fb1ba7df56964c575074dd00 data\stuffmod\loot_tables\blocks\enderite_block.json
 07b9da483ec33ba98921273f09a02967b08f22c6 data\stuffmod\loot_tables\blocks\stripped_firey_void_log.json
@@ -10,8 +10,8 @@ a0ade26a42b55aa554510cddcfb3754d0afe9fb6 data\stuffmod\loot_tables\blocks\eeee_m
 20b82caa4ba25adb00d854387cb3228362dec0d5 data\stuffmod\loot_tables\blocks\firey_void_fence_gate.json
 c3cc28a4a54aaae26a34883746cfaafd24f26982 data\stuffmod\loot_tables\blocks\icee_void_trapdoor.json
 75742b987ff31f12ec1c11adc1e451de045c8f7d data\stuffmod\loot_tables\blocks\icee_void_planks.json
-543097db5174766aa976c5f4142f3f30c6bb1754 data\stuffmod\loot_tables\blocks\eeee_ingot_block.json
 b653909db6e18e7982734cfd35af6cefb95b1c45 data\stuffmod\loot_tables\blocks\icee_void_button.json
+543097db5174766aa976c5f4142f3f30c6bb1754 data\stuffmod\loot_tables\blocks\eeee_ingot_block.json
 0a5dfed17eb281500a2930c51a32ac2d0d9a071e data\stuffmod\loot_tables\blocks\firey_void_fence.json
 be6a2615c184f951e7bf843086bfeec9776042a8 data\stuffmod\loot_tables\blocks\firey_void_wood.json
 e5e6787b834129b7e6ee4bec086a43dc7a8f7dae data\stuffmod\loot_tables\blocks\icee_void_slab.json

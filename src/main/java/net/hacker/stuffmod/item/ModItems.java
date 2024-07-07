@@ -69,6 +69,15 @@ public class ModItems {
     public static final Item EEEE_BOOTS = registerItem("eeee_boots",
             new ArmorItem(ModArmorMaterials.EEEE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
+    public static final Item EMERALD_HELMET = registerItem("emerald_helmet",
+            new ArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item EMERALD_CHESTPLATE = registerItem("emerald_chestplate",
+            new ArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item EMERALD_LEGGINGS = registerItem("emerald_leggings",
+            new ArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item EMERALD_BOOTS = registerItem("emerald_boots",
+            new ArmorItem(ModArmorMaterials.EMERALD, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
     public static final Item ENDERITE_HELMET = registerItem("enderite_helmet",
             new ArmorItem(ModArmorMaterials.ENDERITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item ENDERITE_CHESTPLATE = registerItem("enderite_chestplate",

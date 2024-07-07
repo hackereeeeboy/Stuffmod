@@ -12,6 +12,8 @@ import java.util.function.Supplier;
 public enum ModArmorMaterials implements ArmorMaterial {
     EEEE("eeee", 51, new int[] { 6, 11, 9, 6 }, 19,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4f, 0.2f, () -> Ingredient.ofItems(ModItems.EEEE_INGOT)),
+    EMERALD("emerald", 22, new int[] { 6, 11, 9, 6 }, 13,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2f, -1f, () -> Ingredient.ofItems(ModItems.EEEE_INGOT)),
     ENDERITE("enderite", 51, new int[] { 4, 9, 7, 4}, 19,
     SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3f, 0.1f, () -> Ingredient.ofItems(ModItems.ENDERITE_INGOT));
 

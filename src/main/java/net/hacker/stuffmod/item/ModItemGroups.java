@@ -88,6 +88,10 @@ public class ModItemGroups {
                         entries.add(ModItems.EMERALD_PICKAXE);
                         entries.add(ModItems.EMERALD_HOE);
                         entries.add(ModItems.EMERALD_SWORD);
+                        entries.add(ModItems.EMERALD_BOOTS);
+                        entries.add(ModItems.EMERALD_CHESTPLATE);
+                        entries.add(ModItems.EMERALD_LEGGINGS);
+                        entries.add(ModItems.EMERALD_HELMET);
 
                         entries.add(ModItems.LAOC);
                         entries.add(ModItems.EEEEAPPLE);
